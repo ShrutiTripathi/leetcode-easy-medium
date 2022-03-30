@@ -1,4 +1,4 @@
-package TwentyfiveCodingQuestions;
+package code.string;
 
 import java.util.ArrayList;
 import java.util.List;
