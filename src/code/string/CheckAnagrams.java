@@ -39,6 +39,8 @@ public class CheckAnagrams {
                 if (map.get(str2.charAt(i)) == 0) {
                     map.remove(str2.charAt(i));
                 }
+            }else{
+                return false;
             }
 
         }

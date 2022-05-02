@@ -21,4 +21,18 @@ public class FindVowels {
         }
         return vowels;
     }
+    public static char[] findVowels2(String str){
+        List<Character> list = new ArrayList<Character>();
+        for(int i=0; i<str.length(); i++){
+            if("AEIOUaeiou".indexOf(str.charAt(i))!=-1){
+                list.add(str.charAt(i));
+            }
+        }
+        char[] vowels = new char[list.size()];
+        for(int i=0; i<list.size(); i++){
+            vowels[i]= list.get(i);
+            System.out.println(vowels[i]);
+        }
+        return vowels;
+    }
 }

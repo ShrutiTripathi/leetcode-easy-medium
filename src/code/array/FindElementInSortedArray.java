@@ -3,7 +3,7 @@ package code.array;
 public class FindElementInSortedArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4};
-        int n = 9;
+        int n = 3;
         System.out.println(findElementInSortedArray(arr, n));
     }
 

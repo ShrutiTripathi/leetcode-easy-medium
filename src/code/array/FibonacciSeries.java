@@ -16,7 +16,6 @@ public class FibonacciSeries {
             fs[0]=1;
             return fs;
         }
-
         fs[0]=1;
         fs[1]=1;
         for(int i=2; i<num; i++){

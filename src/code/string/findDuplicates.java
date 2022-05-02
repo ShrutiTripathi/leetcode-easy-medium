@@ -13,7 +13,7 @@ public class findDuplicates {
     }
 
     private static List<Character> printDuplicates(String str) {
-        if (str == null) {
+        if (str.isEmpty() || str == null) {
             return new ArrayList<Character>();
         }
         List<Character> duplicates = new ArrayList<Character>();
